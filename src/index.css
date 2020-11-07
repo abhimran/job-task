@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  width: 100%;
+}
+
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+/* Card Slick slider */
+.slick-arrow {
+  background: #06cfdd !important;
+  color: #fff !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.slick-prev {
+  left: 10px !important;
+}
+
+.slick-next {
+  right: 10px !important;
+}
+
+/* Card  */
+.card {
+  border: 1px solid #06cfdd;
+}
+
+.card__info {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 0 20px;
+  grid-gap: 20px;
+  position: absolute;
+  top: 50%;
+  grid-row: none;
+}
+
+.card__info .card__price h3 {
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 10px;
+  color: #fff;
+}
+
+.card__info .card__price {
+  background-color: #06cfdd;
+  border-radius: 150px;
+}
+
+.card__ribbon {
+  text-align: center;
+  background-color: #06cfdd;
+  height: 60px;
+  width: 60px;
+  line-height: 70px;
+  border-radius: 50%;
+  justify-self: end;
+}
+
+.card__ribbon svg {
+  color: #fff;
+  font-size: 30px;
+}
+
+.card-body {
+  margin-top: 30px;
+  color: rgb(158, 144, 144);
+}
+
+.card-title {
+  color: rgb(158, 144, 144);
+}
+
+/* Todo */
+.todo-list {
+  border: 1px solid #06cfdd;
+  text-align: center;
+  width: 50%;
+  margin: 50px auto;
+  padding: 30px 0;
+}
+
+.todo-list h1 {
+  font-size: 30px;
+  color: #474747;
+  margin: 20px 0;
+
+}
+
+ul li .active {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+/* CSV */
+.csv_task_one {
+  width: 50%;
+  margin: 40px auto;
+
+}
